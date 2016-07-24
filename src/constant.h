@@ -7,7 +7,7 @@
   "model_source"
 
 enum {
-  BOX_WIDTH = 1430,
+  BOX_WIDTH = 1440,
   BOX_HEIGHT = 720,
   BOX_SPACE = 5,
   WIDGET_MARGIN = 15,

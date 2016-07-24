@@ -4,9 +4,8 @@
 #include <gtk-3.0/gtk/gtk.h>
 #include <stdlib.h>
 #include <omp.h>
-// #include <sys/types.h>
-// #include <sys/stat.h>
-#include "../../../general/src/header/general_helper.h"
+
+#include "../../general/src/general_helper.h"
 #include "constant.h"
 
 struct ListItem {

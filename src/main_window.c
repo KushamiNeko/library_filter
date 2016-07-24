@@ -1,4 +1,4 @@
-#include "../header/main_window.h"
+#include "main_window.h"
 
 static void constructListItem(struct MainWindow *window,
                               const gchar *libraryPath) {

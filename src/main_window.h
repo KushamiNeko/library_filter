@@ -2,9 +2,9 @@
 #define MAIN_WINDOW_HPP
 
 #include <gtk-3.0/gtk/gtk.h>
-#include "../third_party/tinydir/tinydir.h"
-#include "../../../general/src/header/general_helper.h"
-#include "../../../general/src/header/general_list.h"
+#include "../../third_party/tinydir/tinydir.h"
+#include "../../general/src/general_helper.h"
+#include "../../general/src/general_list.h"
 #include <omp.h>
 
 #include "constant.h"

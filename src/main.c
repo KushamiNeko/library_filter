@@ -2,8 +2,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "header/main_window.h"
-#include "header/list_item.h"
+#include "main_window.h"
+#include "list_item.h"
 
 int main(int argc, char const *argv[]) {
   gtk_init(NULL, NULL);

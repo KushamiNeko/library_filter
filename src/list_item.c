@@ -1,4 +1,4 @@
-#include "../header/list_item.h"
+#include "list_item.h"
 
 struct ListItem *listItemNew(const gchar *imageFile) {
   struct ListItem *re;
