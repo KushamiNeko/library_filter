@@ -1,7 +1,10 @@
-bin/main: bin/main_window bin/list_item
-	gcc `pkg-config --cflags gtk+-3.0` src/main.c -fopenmp -o bin/main bin/main_window bin/list_item \
-~/programming_projects/c/general/bin/general_helper	~/programming_projects/c/general/bin/general_list \
+bin/main: #bin/main_window bin/list_item
+	gcc `pkg-config --cflags gtk+-3.0` src/main.c -fopenmp -o bin/main  \
  `pkg-config --libs gtk+-3.0`
+
+#gcc `pkg-config --cflags gtk+-3.0` src/main.c -fopenmp -o bin/main bin/main_window bin/list_item \
+#~/programming_projects/c/general/bin/general_helper	~/programming_projects/c/general/bin/general_list \
+# `pkg-config --libs gtk+-3.0`
 
 bin/main_window :
 	gcc `pkg-config --cflags gtk+-3.0` -c src/main_window.c \

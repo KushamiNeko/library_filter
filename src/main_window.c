@@ -58,9 +58,6 @@ struct MainWindow *mainWindowNew(const gchar *libraryPath) {
   re->filterStay = generalListNew(NULL);
   re->filterOut = generalListNew(NULL);
 
-  //  re->stay = NULL;
-  //  re->end = NULL;
-
   re->mainWindow = gtk_window_new(GTK_WINDOW_TOPLEVEL);
   gtk_window_set_title(GTK_WINDOW(re->mainWindow), "GTK Library Filter");
   gtk_window_set_position(GTK_WINDOW(re->mainWindow), GTK_WIN_POS_CENTER);
@@ -83,6 +80,7 @@ struct MainWindow *mainWindowNew(const gchar *libraryPath) {
   re->scrollWindow = gtk_scrolled_window_new(NULL, NULL);
   h = gtk_scrolled_window_get_hadjustment(
       GTK_SCROLLED_WINDOW(re->scrollWindow));
+
   v = gtk_scrolled_window_get_vadjustment(
       GTK_SCROLLED_WINDOW(re->scrollWindow));
 
